@@ -2,12 +2,12 @@ body {
     background-color: #111;
     color: #DDD;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: 4vw 6vw;
+    padding: 4vh 6vw;
 }
 
 header {
     color: #EEE;
-    font-size: 12vw;
+    font-size: 11vw;
     font-family: 'Roboto Slab', sans-serif;
     letter-spacing: 0.04em;
 }
@@ -17,36 +17,61 @@ main {
     text-align: justify;
 }
 
-@media screen and (max-width: 500px) {
-    body {
-        padding: 20px 6vw;
-    }
+footer {
+    font-size: 3vw;
+    position: absolute;
+    bottom: 8%;
+}
 
+p {
+    margin-bottom: -0.5em;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: #9A4A4A;
+}
+
+a.footer-link:first-child {
+    margin-left: 0;
+}
+
+a.footer-link {
+    margin-left: 5vw;
+}
+
+@media (max-width: 500px) {
     header {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     main {
         font-size: 16px;
     }
+
+    footer {
+        font-size: 15px;
+    }
 }
 
-@media screen and (min-width: 1000px) {
-    body {
-        padding: 40px 6vw;
-    }
-
+@media (min-width: 1000px) {
     header {
-        font-size: 120px;
+        font-size: 110px;
     }
 
     main {
         font-size: 32px;
     }
-}
 
-p {
-    margin-bottom: -0.5em;
+    footer {
+        font-size: 30px;
+    }
 }
 
 .highlight {

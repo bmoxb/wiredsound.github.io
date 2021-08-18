@@ -1,17 +1,31 @@
 body {
     background-color: #111;
-    color: #DDD;
+    color: #CCC;
     font-family: 'Noto Sans JP', sans-serif;
-    padding: 4vh 6vw;
+    margin: 0;
+    padding: 0 0 4vh;
 }
 
 body.no-transitions * {
     transition: none !important;
 }
 
+div.container {
+    padding: 1vh 6vw;
+}
+
+img#cover {
+    opacity: 50%;
+    padding: none;
+    margin: none;
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
 header {
-    color: #EEE;
     font-size: 10vw;
+    color: #DDD;
     font-family: 'Roboto Slab', sans-serif;
     letter-spacing: 0.04em;
 }
@@ -22,7 +36,7 @@ main {
 }
 
 footer {
-    font-size: 3vw;
+    font-size: 4vw;
     position: absolute;
     bottom: 8%;
 }
@@ -66,7 +80,7 @@ a.footer-link:first-child {
     }
 
     footer {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
 
@@ -80,7 +94,7 @@ a.footer-link:first-child {
     }
 
     footer {
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 

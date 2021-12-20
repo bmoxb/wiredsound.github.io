@@ -23,7 +23,8 @@ img#cover {
     object-fit: cover;
 }
 
-header {
+title {
+    display: block;
     font-size: 10vw;
     color: #DDD;
     font-family: 'Roboto Slab', sans-serif;
@@ -35,10 +36,9 @@ main {
     text-align: justify;
 }
 
-footer {
+.header-links {
+    color: #555;
     font-size: 4vw;
-    position: absolute;
-    bottom: 8%;
 }
 
 p {
@@ -56,22 +56,17 @@ a:hover {
     color: #CE5E5E;
 }
 
-a.footer-link {
-    margin-left: 5vw;
+a.header-link {
     color: #555;
     transition-duration: 0.3s;
 }
 
-a.footer-link:hover {
+a.header-link:hover {
     color: #B84A4A;
 }
 
-a.footer-link:first-child {
-    margin-left: 0;
-}
-
 @media (max-width: 500px) {
-    header {
+    title {
         font-size: 50px;
     }
 
@@ -79,13 +74,13 @@ a.footer-link:first-child {
         font-size: 16px;
     }
 
-    footer {
+    .header-links {
         font-size: 20px;
     }
 }
 
 @media (min-width: 1000px) {
-    header {
+    title {
         font-size: 100px;
     }
 
@@ -93,7 +88,7 @@ a.footer-link:first-child {
         font-size: 32px;
     }
 
-    footer {
+    .header-links {
         font-size: 40px;
     }
 }

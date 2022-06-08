@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-Hi, I'm Max - a student at the [University of Bath](https://bath.ac.uk) studying a BSc in computer science.
+Hi, I'm Max - a student at the [University of Bath](https://bath.ac.uk) studying for a BSc in computer science.
 
 Currently, I'm working part-time at [YC S20](https://www.ycombinator.com/companies?batch=S20) startup [Shuttle](https://shuttle.rs) building a Rust-first severless platform and a synthetic data generation tool.
 
